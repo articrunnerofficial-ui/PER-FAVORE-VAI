@@ -20,3 +20,7 @@
 
 /* Small campaign note */
 .imac-note{position:absolute;z-index:4;right:-18px;bottom:26px;display:flex;align-items:center;gap:7px;padding:8px 10px;background:var(--lime);color:var(--ink);font:700 9px var(--mono);letter-spacing:.06em;box-shadow:4px 5px 0 var(--ink);transform:rotate(-5deg)}.imac-note strong{font-size:15px;line-height:1}
+
+/* Larger Objective and Process typography across all case studies */
+.case-section .case-text h4,.influencer-objective h4,.influencer-process h4{font-size:12px!important}
+.case-section .case-text h4 + p,.influencer-objective p,.influencer-process p{font-size:clamp(16px,1.2vw,19px)!important;line-height:1.65}
