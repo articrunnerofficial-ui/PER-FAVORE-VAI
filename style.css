@@ -15,3 +15,8 @@
 
 /* Fixed Mac display ratio and silver hardware */
 #influencer .imac{width:min(100%,760px)!important;border-color:#9aa2a8!important;background:linear-gradient(145deg,#d8dde0,#7d878d)!important;box-shadow:10px 11px 0 var(--lime),0 16px 28px rgba(16,36,31,.18)!important}#influencer .imac-top{background:#b9c1c6!important}#influencer .imac-top span{background:#fff!important}#influencer .imac video{width:100%!important;height:auto!important;aspect-ratio:16/9!important;object-fit:contain!important;background:#101314!important}#influencer .imac-stand{background:linear-gradient(90deg,#79848a,#e3e7e8,#79848a)!important}#influencer .imac-stand:after{background:#7a858b!important}
+
+
+
+/* Small campaign note */
+.imac-note{position:absolute;z-index:4;right:-18px;bottom:26px;display:flex;align-items:center;gap:7px;padding:8px 10px;background:var(--lime);color:var(--ink);font:700 9px var(--mono);letter-spacing:.06em;box-shadow:4px 5px 0 var(--ink);transform:rotate(-5deg)}.imac-note strong{font-size:15px;line-height:1}
